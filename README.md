@@ -19,6 +19,27 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'IJKPlayerWithSSL'
 ```
+```
+#     Build Phases -> Link Binary with Libraries -> Add:
+#         libbz2.tbd
+#         libz.tbd
+#         libc++.tbd
+
+#         AudioToolbox.framework
+#         AVFoundation.framework
+#         CoreGraphics.framework
+#         CoreMedia.framework
+#         CoreVideo.framework
+#         MediaPlayer.framework
+#         MobileCoreServices.framework
+#         OpenGLES.framework
+#         QuartzCore.framework
+#         UIKit.framework
+#         VideoToolbox.framework
+#
+#         ... (Maybe something else, if you get any link error)
+# 
+```
 
 ## Author
 
