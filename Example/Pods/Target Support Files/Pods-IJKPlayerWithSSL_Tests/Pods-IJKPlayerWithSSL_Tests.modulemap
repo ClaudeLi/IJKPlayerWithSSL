@@ -1,0 +1,6 @@
+framework module Pods_IJKPlayerWithSSL_Tests {
+  umbrella header "Pods-IJKPlayerWithSSL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
