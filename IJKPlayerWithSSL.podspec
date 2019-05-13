@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IJKPlayerWithSSL'
-  s.version          = '1.0.0'
+  s.version          = '1.2.0'
   s.summary          = 'IJKMediaFrameworkWithSSL k0.8.8'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
