@@ -314,7 +314,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IJKPlayerWithSSL_Example/Pods-IJKPlayerWithSSL_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IJKPlayerWithSSL_Example/Pods-IJKPlayerWithSSL_Example-frameworks.sh",
 				"${PODS_ROOT}/../../IJKMediaFrameworkWithSSL.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -325,7 +325,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IJKPlayerWithSSL_Example/Pods-IJKPlayerWithSSL_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IJKPlayerWithSSL_Example/Pods-IJKPlayerWithSSL_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B03A12A01003AF4967E9988 /* [CP] Check Pods Manifest.lock */ = {

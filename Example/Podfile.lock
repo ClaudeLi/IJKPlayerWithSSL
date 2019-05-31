@@ -1,5 +1,5 @@
 PODS:
-  - IJKPlayerWithSSL (1.0.0)
+  - IJKPlayerWithSSL (1.3.0)
 
 DEPENDENCIES:
   - IJKPlayerWithSSL (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IJKPlayerWithSSL: fc7e66980e28a270d90ab9a697caef09320f3d5f
+  IJKPlayerWithSSL: f94c087acc95c54917150ab386ab419398e50d71
 
 PODFILE CHECKSUM: ac5ed8ee0aada3522895f259968f4f34d0a366b5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

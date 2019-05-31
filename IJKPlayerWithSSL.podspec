@@ -25,6 +25,6 @@ TODO: Add long description of the pod here.
   
   s.frameworks = 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'MediaPlayer', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'VideoToolbox'
 
-  s.libraries = 'bz2','z','bc++'
+  s.libraries = 'bz2','z','c++'
 
 end

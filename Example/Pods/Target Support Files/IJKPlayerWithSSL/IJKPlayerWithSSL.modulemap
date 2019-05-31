@@ -1,6 +1,0 @@
-framework module IJKPlayerWithSSL {
-  umbrella header "IJKPlayerWithSSL-umbrella.h"
-
-  export *
-  module * { export * }
-}
