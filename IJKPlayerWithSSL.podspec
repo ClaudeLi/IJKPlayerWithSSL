@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IJKPlayerWithSSL'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'IJKMediaFrameworkWithSSL k0.8.8'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'IJKMediaFrameworkWithSSL.framework'
   
   s.frameworks = 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'MediaPlayer', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'VideoToolbox'
-    #         libbz2.tbd
-    #         libz.tbd
-    #         libc++.tbd
+
+  s.libraries = 'bz2','z','bc++'
+
 end

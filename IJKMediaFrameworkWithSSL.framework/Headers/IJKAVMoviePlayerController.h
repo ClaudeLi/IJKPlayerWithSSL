@@ -93,4 +93,9 @@
  */
 @property (nonatomic, assign) BOOL canUseNetworkWhilePaused;
 
+/**
+ 仅播放音频
+ */
+@property (nonatomic, assign) BOOL onlyPlayAudio;
+
 @end
